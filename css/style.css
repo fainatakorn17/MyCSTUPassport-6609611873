@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+*a{
+    text-decoration:none;
+}
+.container{
+    position: relative;
+    min-height: 100vh;
+   
+}
+.bg{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.bg::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image:url('https://wallpaperaccess.com/full/848.jpg');
+    z-index:-1;
+    background-size: cover;
+    background-position: center;
+    filter: brightness(75%);
+}
+.menu{
+    position: relative;
+    width: 85%;
+    height: 15vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.menu ul{
+    display: flex;
+    align-items: center; 
+    list-style: none; 
+}
+.menu ul li{
+    padding: 0 17px;
+}
+.menu ul li a{
+    font-weight: bold;
+    color: #fff;
+    font-size: 14px;
+}
+.logo a{
+    font-size: 2rem;
+    color: #fff;
+}
+body{ 
+    background-color:lightyellow;
+    font-family:sans-serif;
+    text-align: center;
+}
+#para1{
+    color:hotpink;
+    background-color:cyan;
+}
+#para2{
+    color:deeppink;
+}
+#advisor{
+    color:olivedrab;
+    text-align: center;
+    background-color: lightblue;
+}
+#img_container{
+    text-align: center;   
+}
+#advname{
+    text-align: center;
+    color: darkslategray;
+}
+#advinfo{
+    color:darkgreen;
+}
+#activity{
+    color:darkviolet;
+}
+#orientation{
+    color:brown;
+    background-color:rgb(249, 189, 166);
+    text-align: center;
+}
+#csmeeting{
+    color: darkmagenta;
+    background-color: rgb(255, 212, 245);
+    text-align: center;
+}
+.bg2{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.bg2::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image:url('https://i.pinimg.com/originals/96/2d/8c/962d8c00b1889ce6088b6f6283f1725b.jpg');
+    z-index:-1;
+    background-size: cover;
+    background-position: center;
+    filter: brightness(75%);
+}
+#intro{
+    margin: 225px;
+    font-size: 300%;
+    font-family: serif;
+    color: #fff;
+}
+#intro2{
+    margin: 180px;
+    font-size: 300%;
+    font-family: serif;
+    color: #fff;
+}
